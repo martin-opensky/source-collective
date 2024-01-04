@@ -1,0 +1,43 @@
+{
+  "name": "tauri-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "yarn tauri dev",
+    "build": "yarn tauri build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.0.0-alpha.4",
+    "@heroicons/react": "^2.1.1",
+    "@reduxjs/toolkit": "^2.0.1",
+    "@tauri-apps/api": "^2.0.0-alpha.13",
+    "@tauri-apps/plugin-dialog": "^2.0.0-alpha.5",
+    "@tauri-apps/plugin-fs": "^2.0.0-alpha.6",
+    "@tauri-apps/plugin-shell": "^2.0.0-alpha.5",
+    "@tauri-apps/plugin-sql": "^2.0.0-alpha.5",
+    "classnames": "^2.3.2",
+    "clsx": "^2.1.0",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-redux": "^9.0.4"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0-alpha.20",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "internal-ip": "^7.0.0",
+    "postcss": "^8",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.9",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.4"
+  }
+}
