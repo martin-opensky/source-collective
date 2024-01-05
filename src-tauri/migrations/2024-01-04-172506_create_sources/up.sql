@@ -11,10 +11,10 @@ INSERT INTO source_types (id, name) VALUES (5, 'Other');
 
 
 CREATE TABLE sources (
-    id  INT(11) PRIMARY KEY NOT NULL,
+    id  TEXT PRIMARY KEY NOT NULL,
     image TEXT,
     name TEXT NOT NULL,
-    source_type_id TEXT NOT NULL,
+    source_type_id INT(11) NOT NULL,
     description TEXT,
     -- primary_media_id TEXT,
     published_at DATETIME NOT NULL,

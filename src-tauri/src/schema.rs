@@ -130,10 +130,10 @@ diesel::table! {
 
 diesel::table! {
     sources (id) {
-        id -> Integer,
+        id -> Text,
         image -> Nullable<Text>,
         name -> Text,
-        source_type_id -> Text,
+        source_type_id -> Integer,
         description -> Nullable<Text>,
         published_at -> Timestamp,
         created_at -> Timestamp,
