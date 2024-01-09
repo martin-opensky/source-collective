@@ -6,7 +6,8 @@
     "dev": "yarn tauri dev",
     "build": "yarn tauri build",
     "preview": "vite preview",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "next": "next dev"
   },
   "dependencies": {
     "@headlessui/react": "^2.0.0-alpha.4",

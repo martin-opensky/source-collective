@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import classNames from 'classnames'
-import { Button } from './button'
+import { Button } from '@/components/catalyst/button'
 
 export default function Navigation() {
   return (
