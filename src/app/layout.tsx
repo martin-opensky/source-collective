@@ -21,16 +21,16 @@ export default function RootLayout({
       <body
         className={classNames({
           [inter.className]: true,
-          'h-screen w-screen': true,
+          // 'h-screen w-screen': true,
         })}
       >
         <ReduxProvider>
-          <main className="flex min-h-full min-w-full flex-row">
+          <main className="max-h-mobile min-h-mobile flex flex-row lg:min-h-screen">
             <DesktopNavigation />
 
-            <section className="m-2 flex flex-1 flex-col items-start gap-2 lg:pl-16">
+            <div className="max-h-mobile min-h-mobile flex flex-1 flex-col overflow-scroll lg:min-h-screen lg:pl-16">
               {children}
-            </section>
+            </div>
           </main>
         </ReduxProvider>
       </body>
